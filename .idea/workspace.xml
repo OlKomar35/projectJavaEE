@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f04ae3c-8185-4020-9b2a-36d81de94873" name="Changes" comment="созданы две страницы(главная и страница со списком продуктов)" />
+    <list default="true" id="5f04ae3c-8185-4020-9b2a-36d81de94873" name="Changes" comment="созданы две страницы (главная и страница со списком продуктов)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/komar/ProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/komar/ProductServlet.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -94,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664278564084</updated>
-      <workItem from="1664288316067" duration="7211000" />
+      <workItem from="1664288316067" duration="8178000" />
     </task>
     <task id="LOCAL-00001" summary="созданы две страницы(главная и страница со списком продуктов)">
       <created>1664295720763</created>
@@ -103,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664295720763</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="созданы две страницы (главная и страница со списком продуктов)">
+      <created>1664295971978</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664295971978</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +138,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="созданы две страницы(главная и страница со списком продуктов)" />
-    <option name="LAST_COMMIT_MESSAGE" value="созданы две страницы(главная и страница со списком продуктов)" />
+    <MESSAGE value="созданы две страницы (главная и страница со списком продуктов)" />
+    <option name="LAST_COMMIT_MESSAGE" value="созданы две страницы (главная и страница со списком продуктов)" />
   </component>
 </project>
