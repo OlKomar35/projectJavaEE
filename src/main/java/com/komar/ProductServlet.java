@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet(name = "ProductServlet", urlPatterns = "/product")
 public class ProductServlet extends HttpServlet {
 
-    private ArrayList<Product> listProduct=new ArrayList<>();
+    private ArrayList<Product> listProduct = new ArrayList<>();
     private int id = 0;
 
     @Override
@@ -31,14 +31,13 @@ public class ProductServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
         PrintWriter pw = resp.getWriter();
-
         pw.printf("<html>");
         pw.printf("<head><title>Product</title>");
         pw.printf("<style>TD{ border: 1px solid #000 } </style>");
         pw.printf("<body>");
         pw.printf("<h2 align=\"center\">Products list</h2>");
+        pw.printf("<a href=\"index.jsp\">Home page</a>");
         pw.printf("<table style=\"border: 1px solid #000 \">"
                 + "<tr>"
                 + "<td>id</td>"
@@ -46,14 +45,14 @@ public class ProductServlet extends HttpServlet {
                 + "<td>cost</td>"
                 + "</tr>");
         for (int i = 0; i < listProduct.size(); i++) {
-         pw.printf( "<tr>"
-                    +"<td>"+listProduct.get(i).getId()+"</td>"
-                    + "<td>"+listProduct.get(i).getTitle()+"</td>"
-                    + "<td>"+listProduct.get(i).getCost()+"</td>"
+            pw.printf("<tr>"
+                    + "<td>" + listProduct.get(i).getId() + "</td>"
+                    + "<td>" + listProduct.get(i).getTitle() + "</td>"
+                    + "<td>" + listProduct.get(i).getCost() + "$ </td>"
                     + "</tr>"
                     + "<tr>");
         }
-        pw.printf( "</table>");
+        pw.printf("</table>");
         pw.printf("</body></html>");
         pw.close();
     }
