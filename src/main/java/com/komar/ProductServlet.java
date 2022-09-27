@@ -31,9 +31,7 @@ public class ProductServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
         PrintWriter pw = resp.getWriter();
-
         pw.printf("<html>");
         pw.printf("<head><title>Product</title>");
         pw.printf("<style>TD{ border: 1px solid #000 } </style>");
